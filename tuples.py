@@ -18,3 +18,10 @@ print(sixth_animal)
 print(seventh_animal)
 print(eight_animal)
 print(ninth_animal)
+
+animalList = list(animals)
+animalList.extend(["boar", "donkey","cow"])
+print("animal list", animalList)
+
+animalTuple = tuple(animalList)
+print("animal tuple", animalTuple)
